@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e63946;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1faee;
+    width: 80rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 10px #1d3557;
+}
+.imgframe{
+    height: 30rem;
+    width: 25rem;
+    background: url("https://cataas.com/cat");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.fact{
+    color: #edf6f9;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fact-container{
+    background-color: #457b9d;
+    border-radius: 7px;
+    padding: 0.5rem;
+}
